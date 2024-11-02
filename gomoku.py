@@ -1,6 +1,6 @@
 """
 Gomoku Game with AI
-Copyright (C) 2024  JSettler@GitHub.com
+Copyright (C) 2024  JSettler @ GitHub.com
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU Affero General Public License as published by
