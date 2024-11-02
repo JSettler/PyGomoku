@@ -92,7 +92,7 @@ BOT_PLAYS_FIRST = (BOT_SIDE == "first")
 
 # Setup display
 screen = pygame.display.set_mode((WINDOW_SIZE, WINDOW_SIZE))
-pygame.display.set_caption('Gomoku')
+pygame.display.set_caption('PyGomoku 1.0')
 
 
 def coord_to_notation(x, y):
@@ -637,7 +637,7 @@ def draw_stones(board):
                 pygame.draw.circle(screen, color, center, STONE_RADIUS)
 
 def print_startup_info():
-    print("\nGomoku Game with AI")
+    print("\nPyGomoku v1.0")
     print("==================")
     print("Controls:")
     print("- Mouse click: Place your stone")
